@@ -1,3 +1,11 @@
+<div align="center">
+
+  <a href="https://www.youtube.com/watch?v=LKrX390fJMW" target="_blank">
+    <img src="assets/readme/foodapp.png" alt="Food Delivery App Banner">
+  </a>
+
+</div>
+
 ## 🍔 Food Ordering App
 
 A modern cross-platform food ordering mobile app built using **Expo**, **React Native**, and **Expo Router**. This app allows users to browse various food categories, view detailed items, and add them to their cart seamlessly.
@@ -5,8 +13,7 @@ A modern cross-platform food ordering mobile app built using **Expo**, **React N
 ---
 
 ### 📸 Preview
-<img width="1800" height="520" alt="2f33f953-77eb-4f7f-b60a-e5ebf995aec1" src="https://github.com/user-attachments/assets/1abe8c9d-a599-4b3a-bada-fb779c6f9e78" />
-
+<img width="1800" height="520" alt="App Preview" src="https://github.com/user-attachments/assets/1abe8c9d-a599-4b3a-bada-fb779c6f9e78" />
 
 ---
 
@@ -21,6 +28,7 @@ A modern cross-platform food ordering mobile app built using **Expo**, **React N
 ---
 
 ### 📁 Project Structure
+🍔 Food Ordering App
 food_ordering-main/
 ├── app/ # App screens and routes
 ├── assets/ # Fonts and images
@@ -32,7 +40,6 @@ food_ordering-main/
 ├── package.json # Project metadata and dependencies
 └── tsconfig.json # TypeScript configuration
 
-
 ---
 
 ### 🚀 Getting Started
@@ -41,45 +48,42 @@ food_ordering-main/
    ```bash
    git clone https://github.com/your-username/food-ordering-app.git
    cd food-ordering-app
-
-    Install dependencies
-
-npm install
-
-Start the project
-
+   
+2. Install dependencies
+    npm install
+   
+3. Start the project
     npx expo start
-
-    Scan the QR code with Expo Go (on Android/iOS) or run in your browser.
+   
+4. Run the app
+    .Scan the QR code with Expo Go (on Android/iOS)
+    .Or run in your browser
 
 🛠️ Tech Stack
-
-    Expo
-
-    React Native
-
-    Expo Router
-
-    NativeWind
-
-    TypeScript
+    ->Expo
+    ->React Native
+    ->Expo Router
+    ->NativeWind
+    ->TypeScript
 
 📦 Dependencies
-
-"expo": "^53.0.20",
-"react-native": "0.79.5",
-"expo-router": "~5.1.4",
-"nativewind": "^3.3.0",
-"tailwindcss": "^3.4.0"
-
+    "expo": "^53.0.20",
+    "react-native": "0.79.5",
+    "expo-router": "~5.1.4",
+    "nativewind": "^3.3.0",
+    "tailwindcss": "^3.4.0"
+    
 💡 Environment Variables
-
-Set up your .env file like this:
-
-EXPO_PUBLIC_APPWRITE_PROJECT_ID=your_project_id
-EXPO_PUBLIC_APPWRITE_ENDPOINT=https://your-appwrite-api.com
+   ->Create a .env file in the root:
+       EXPO_PUBLIC_APPWRITE_PROJECT_ID=your_project_id
+       EXPO_PUBLIC_APPWRITE_ENDPOINT=https://your-appwrite-api.com
 
 📄 License
+    MIT License — Free to use and modify.
+    You just need to:  
+    1. Save your uploaded banner as `assets/readme/foodapp.png`  
+    2. Replace `your-username` in the git clone URL with your GitHub username  
+    3. Commit & push the updated `README.md`  
+   
 
-MIT License. Free to use and modify.
 
